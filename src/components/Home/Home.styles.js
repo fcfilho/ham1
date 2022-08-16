@@ -36,8 +36,8 @@ export const Home = styled('section')`
         font-size: 6vw;
       }
     }
-
   }
+  
 
   .inner-wrapper {
     align-items: center;
@@ -58,7 +58,7 @@ export const Home = styled('section')`
       width: 40%;
 
       @media(max-width: 768px) {
-        padding: 12px 0;
+        padding: 6px 0;
         width: 96%;
       }
 

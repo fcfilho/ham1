@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Atuacao = styled('section')`
-  background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(229,229,229,0) 15%, rgba(229,229,229,0) 85%, rgba(229,229,229,1) 100%);
+  /* background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(229,229,229,0) 15%, rgba(229,229,229,0) 85%, rgba(229,229,229,1) 100%); */
   margin: auto;
   max-width: 1440px;
 

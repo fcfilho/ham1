@@ -69,17 +69,21 @@ export const Associados = styled('section')`
     box-member {
       align-items: center;
       display: flex;
-      margin: 6px;
+      justify-content: space-around;
+      margin: auto;
       padding: 15px;
 
       box-img {
         align-items: center;
         display: flex;
+        padding: 3px;
       }
 
       box-text {
+        align-items: center;
         font-size: 18px;
-        margin: 15px;
+        margin: auto;
+        padding: 3px;
 
         h3{
           color: #ccab63;
