@@ -14,7 +14,7 @@ function Footer({ openRegisterDialog }) {
             className="location-icon"
             target="_blank" 
             rel="noopener noreferrer">
-            R. Dr. Vicente Risola, 325<br/>São Benedito<br/>Poços de Caldas - MG<br/>37701-168
+            Rua: Dr. Vicente Risola, 325<br/>Bairro: São Benedito<br/>Poços de Caldas - MG<br/>37701-168
           </a>
         </nav>
 

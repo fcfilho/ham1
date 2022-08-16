@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const Associados = styled('section')`
-  background: radial-gradient(51% 51% at 33% 43%, #faf7f0 45%, #e5e5e5 99%);
+  background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(229,229,229,0) 15%, rgba(229,229,229,0) 85%, rgba(229,229,229,1) 100%);
+
   margin: auto;
   max-width: 1440px;
 
   .header {
     align-items: center;
     padding: 30px 0px;
-    width: 100%;
     text-align: center;
     
     * {
@@ -38,12 +38,14 @@ export const Associados = styled('section')`
   }
 
   .inner-wrapper {
+    align-items: center;
     display: flex;
+    justify-content: space-around;
     margin: auto;
     max-width: 1440px;
-    padding: 90px 0px;
-    width: 100%;
-    text-align: center;
+    min-height: 600px;
+    padding: 60px 0px;
+    
     
     h1 {
       color: #0e5c60;
@@ -66,22 +68,19 @@ export const Associados = styled('section')`
     }
 
     box-member {
-      background-color: transparent;
+      align-items: center;
       display: flex;
-      justify-content: space-around;
-      margin: auto;
-      padding: 0px 9px;
-      width: 30%;
+      margin: 6px;
+      padding: 15px;
 
       box-img {
-        align-items: left;
-        margin-right: 9px;
+        align-items: center;
+        display: flex;
       }
 
       box-text {
-        text-align: left;
-        font-size: 16px;
-        vertical-align: top;
+        font-size: 18px;
+        margin: 15px;
 
         h3{
           color: #ccab63;

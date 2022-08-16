@@ -21,7 +21,7 @@ const Associados = () => {
             <p>OAB: MG 69.136</p>
             <p>Tel: (35) 99906-8555</p>
             <p>arcanjo.adv@live.com</p>
-            <p>Proprietário do escritório</p>
+            <p>Escritório Poços de Caldas</p>
           </box-text>
         </box-member>
 
@@ -34,7 +34,7 @@ const Associados = () => {
             <p>OAB: MG xx.xxx</p>
             <p>Tel: (19) 99929-3303</p>
             <p>Silvianeguesesadv@gmail.com</p>
-            <p>Escritório em Campinas - SP</p>
+            <p>Escritório Campinas</p>
           </box-text>
         </box-member>
       </div>

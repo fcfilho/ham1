@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import Home from './components/Home';   
 import Associados from './components/Associados';
-import Contato from './components/Contato';
 import Atuacao from './components/Atuacao';
 import Sobre from './components/Sobre';
 
@@ -21,7 +20,6 @@ root.render(
         <Route index element={<Home />} />
         <Route path="Associados" element={<Associados />} />
         <Route path="Atuacao" element={<Atuacao />} />
-        <Route path="Contato" element={<Contato />} />
         <Route path="Sobre" element={<Sobre />} />
       </Route>
     </Routes>
@@ -30,3 +28,5 @@ root.render(
 
 reportWebVitals();
 
+// import Contato from './components/Contato';
+// <Route path="Contato" element={<Contato />} />

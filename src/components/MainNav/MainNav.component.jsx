@@ -15,9 +15,6 @@ const MainNav = () => {
           <a href="Atuacao">
             Atuação
           </a>
-          <a href="Contato">
-            Contato
-          </a>
           <a href="Sobre">
             Sobre
           </a>

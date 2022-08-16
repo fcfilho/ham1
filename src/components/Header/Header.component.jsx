@@ -18,7 +18,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <nrContato>+55 (35) 99906-8555</nrContato>
+          <nrContato>(35) 99906-8555</nrContato>
         </a>
       </div>
     </Styled.Header>
