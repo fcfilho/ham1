@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Sobre = styled('section')`
-  background: radial-gradient(51% 51% at 33% 43%, #faf7f0 45%, #e5e5e5 99%);
+  background: linear-gradient(180deg, rgba(229,229,229,1) 0%, rgba(229,229,229,0) 15%, rgba(229,229,229,0) 85%, rgba(229,229,229,1) 100%);
   margin: auto;
   max-width: 1440px;
 
