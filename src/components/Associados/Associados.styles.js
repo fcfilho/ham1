@@ -105,7 +105,7 @@ export const Associados = styled('section')`
         }
 
         @media(max-width: 768px) {
-          padding-left: 3px 0px;
+          padding: 3px 0px;
         }
 
       }
