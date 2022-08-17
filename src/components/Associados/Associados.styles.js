@@ -39,13 +39,18 @@ export const Associados = styled('section')`
   .inner-wrapper {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
     max-width: 1440px;
     min-height: 600px;
-    padding: 60px 0px;
+    padding: 30px 0px;
     
-    
+  
+    @media(max-width: 768px) {
+      padding: 6px 0px;
+    }
+
     h1 {
       color: #0e5c60;
       font-size: 39px;
@@ -71,22 +76,32 @@ export const Associados = styled('section')`
       display: flex;
       justify-content: space-around;
       margin: auto;
-      padding: 15px;
+      padding: 15px 0;
+      width: 420px;
+
+
 
       box-img {
         align-items: center;
-        display: flex;
-        padding: 3px;
+        padding: 6px;
+
+        @media(max-width: 768px) {
+          align-items: left;
+        }
       }
 
       box-text {
         align-items: center;
-        font-size: 18px;
+        font-size: 15px;
         margin: auto;
-        padding: 3px;
+        padding: 6px;
 
         h3{
           color: #ccab63;
+        }
+
+        @media(max-width: 768px) {
+          align-items: left;
         }
       }
       

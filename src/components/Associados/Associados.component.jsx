@@ -8,7 +8,7 @@ const Associados = () => {
 
       <div className='header'>
         <h1>Nossa equipe</h1>
-        <JunteSeNos>Junte-se a nós</JunteSeNos>
+        <h2>Junte-se a nós</h2>
       </div>
 
       <div className='inner-wrapper'>
@@ -33,7 +33,7 @@ const Associados = () => {
             <h3>Silviane Guedes</h3>
             <p>OAB: MG xx.xxx</p>
             <p>Tel: (19) 99929-3303</p>
-            <p>Silvianeguesesadv@gmail.com</p>
+            <p>silvianeguesesadv@gmail.com</p>
             <p>Escritório Campinas</p>
           </box-text>
         </box-member>
