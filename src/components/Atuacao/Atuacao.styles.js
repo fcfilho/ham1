@@ -6,7 +6,7 @@ export const Atuacao = styled('section')`
   max-width: 1440px;
 
   .header {
-    padding: 30px 0px;
+    padding: 15px 0px;
     text-align: center;
     
     
@@ -26,7 +26,7 @@ export const Atuacao = styled('section')`
       font-size: 27px;
 
       @media(max-width: 768px) {
-        font-size: 6vw;
+        font-size: 5vw;
       }
     }
 

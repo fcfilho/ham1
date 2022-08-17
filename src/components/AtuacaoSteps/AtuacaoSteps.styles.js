@@ -7,7 +7,7 @@ export const AtuacaoSteps = withTheme(styled('article')`
   height: 390px;
   max-width: 1440px;
   margin: auto;
-  padding: 30px 0;
+  padding: 9px 0;
   position: relative;
 
   ${(props) => {
@@ -40,7 +40,7 @@ export const AtuacaoSteps = withTheme(styled('article')`
 
     @media(max-width: ${({ theme }) => `${theme.breakpoints.values.sm}px`}) {
       width: 100vw;
-      padding: 30px;
+      padding: 12px;
     }
 
     h3, p {
@@ -113,8 +113,8 @@ export const AtuacaoSteps = withTheme(styled('article')`
 
   .fader {
     position: absolute;
-    top: 51%;
-    transform: translateY(-51%);
+    top: 50%;
+    transform: translateY(-50%);
     ${(props) => props.inverted ? css`left: 0` : css`right: 0`};
     max-width: ${({ imgSize }) => `${imgSize[0]}px`};
     height: ${({ imgSize }) => `${imgSize[1]}px`};

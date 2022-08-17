@@ -30,7 +30,7 @@ export const Associados = styled('section')`
       font-size: 27px;
 
       @media(max-width: 768px) {
-        font-size: 3vw;
+        font-size: 4vw;
       }
     }
 
@@ -81,6 +81,7 @@ export const Associados = styled('section')`
       width: 420px;
 
       @media(max-width: 768px) {
+        flex-wrap: wrap;
         padding: 6px 0px;      
       }
 

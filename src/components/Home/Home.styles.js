@@ -13,12 +13,12 @@ export const Home = styled('section')`
     align-items: center;
     margin: auto;
     max-width: 1440px;
-    padding: 30px 0px;
-    width: 100%;
+    padding: 30px 0;
     text-align: center;  
+    width: 100%;
 
     @media(max-width: 780px) {
-      padding-top: 0px;
+      padding-top: 18px;
       min-height: initial;
     }
 
@@ -29,8 +29,7 @@ export const Home = styled('section')`
     h1 {
       color: #0e5c60;
       font-size: 39px;
-      line-height: 51px;
-      margin-bottom: 6px;
+      line-height: 45px;
 
       @media(max-width: 768px) {
         font-size: 6vw;
@@ -54,7 +53,7 @@ export const Home = styled('section')`
       height: auto;
       justify-content: space-around;
       margin: auto;
-      padding: 30px 0;
+      padding: 15px 0;
       width: 40%;
 
       @media(max-width: 768px) {
@@ -64,7 +63,7 @@ export const Home = styled('section')`
 
       h2 {
         color: #ccab63;
-        font-size: 27px;
+        font-size: 4vw;
         text-align: center;
 
         @media(max-width: 768px) {
@@ -74,7 +73,7 @@ export const Home = styled('section')`
       
       p {
         color: #000;
-        font-size: 18px;
+        font-size: 3vw;
         text-align: justify;
         line-height: 36px;
         margin: 9px 15px;
