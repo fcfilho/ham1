@@ -77,15 +77,16 @@ export const Associados = styled('section')`
       justify-content: space-around;
       margin: auto;
       padding: 15px 0;
-      width: 420px;
+      max-width: 420px;
 
       @media(max-width: 768px) {
-        padding: 5px 0;        
+        padding: 5px 0; 
+        max-width: 400px;       
       }
 
       box-img {
         align-items: center;
-        padding: 6px;
+        padding: 6px 0;
 
       }
 
@@ -93,7 +94,7 @@ export const Associados = styled('section')`
         align-items: center;
         font-size: 15px;
         margin: auto;
-        padding: 6px;
+        padding: 6px 0;
 
         h3{
           color: #ccab63;
