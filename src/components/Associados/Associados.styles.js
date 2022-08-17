@@ -79,15 +79,14 @@ export const Associados = styled('section')`
       padding: 15px 0;
       width: 420px;
 
-
+      @media(max-width: 768px) {
+        padding: 5px 0;        
+      }
 
       box-img {
         align-items: center;
         padding: 6px;
 
-        @media(max-width: 768px) {
-          align-items: left;
-        }
       }
 
       box-text {
@@ -100,9 +99,6 @@ export const Associados = styled('section')`
           color: #ccab63;
         }
 
-        @media(max-width: 768px) {
-          align-items: left;
-        }
       }
       
     }
