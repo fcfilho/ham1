@@ -73,20 +73,25 @@ export const Associados = styled('section')`
 
     box-member {
       align-items: center;
+      
       display: flex;
       justify-content: space-around;
       margin: auto;
-      padding: 15px 0;
-      max-width: 420px;
+      padding: 15px 0px;
+      width: 420px;
 
       @media(max-width: 768px) {
-        padding: 5px 0; 
-        max-width: 400px;       
+        padding: 5px 0;      
       }
 
       box-img {
         align-items: center;
-        padding: 6px 0;
+        padding: 6px;
+
+
+        @media(max-width: 768px) {
+          padding-right: 3px;
+        }
 
       }
 
@@ -94,10 +99,14 @@ export const Associados = styled('section')`
         align-items: center;
         font-size: 15px;
         margin: auto;
-        padding: 6px 0;
+        padding: 6px;
 
         h3{
           color: #ccab63;
+        }
+
+        @media(max-width: 768px) {
+          padding-left: 3px;
         }
 
       }
