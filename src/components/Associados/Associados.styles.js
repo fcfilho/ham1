@@ -95,7 +95,7 @@ export const Associados = styled('section')`
 
       }
 
-      box-text p{
+      box-text {
         align-items: center;
         font-size: 15px;
         margin: auto;
