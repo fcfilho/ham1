@@ -109,6 +109,25 @@ export const Associados = styled('section')`
           padding: 3px 0px;
         }
 
+        a {
+          color: #000;
+          text-decoration: none;
+          line-height: 30px;
+          margin-bottom: 16px;
+          min-width: 170px;
+
+          @media(max-width: 768px) {
+            margin-bottom: 7px;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
       
     }

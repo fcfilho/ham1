@@ -20,7 +20,7 @@ function Footer({ openRegisterDialog }) {
 
         <div className="social-media">
           <a
-          href="https://api.whatsapp.com/send?phone=5535999068555&text=Olá%20Dr.%20Hélio%20Arcanjo,%20eu%20gostaria%20de%20saber%20se%20seu%20escritório%20atua%20na%20área%20de%20..." 
+          href="https://api.whatsapp.com/send?phone=5519999293303&text=Olá%20Dr.%20Hélio,%20eu%20gostaria%20de%20contar%20com%20seus%20serviços%20jurídicos,%20por%20favor!" 
           className="social-media__icon social-media__icon--whatsapp"
           target="_blank"
           rel="noopener noreferrer"
