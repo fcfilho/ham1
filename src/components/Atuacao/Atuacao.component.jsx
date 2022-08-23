@@ -19,7 +19,7 @@ const Atuacao = () => {
     <AtuacaoSteps bg="./images/atuacao/jurid_emp.jpeg" size={[665, 666]}>
       <h3 className="thin">Assessoria Empresarial</h3>
       <p>Evite litígios. Assessoramos sua empresa visando minimizar litígios trabalhistas e previnir conflitos. 
-      Temos grandes atuações em empresas de trasnsportes e construtoras.</p>
+      Temos diversas atuações em empresas de trasnsportes e construtoras.</p>
     </AtuacaoSteps>
     <AtuacaoSteps bg="./images/atuacao/dir_bancario.jpeg" size={[813, 498]} inverted>
       <h3 className="thin">Direito Bancário</h3>

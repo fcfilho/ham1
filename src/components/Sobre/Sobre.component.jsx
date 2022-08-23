@@ -18,7 +18,7 @@ const Sobre = () => {
           <p>Com sede na cidade de <strong>Poços de Caldas - MG</strong>,
           Hélio Arcanjo Advocacia é um escritório com experiência, competência e seriedade, 
           com paixão pela profissão e por fazer a diferença na vida de nossos clientes. </p>
-          <p>Nos orgulhamos por ter compromissos duradouros com nossos clientes.
+          <p>Nos orgulhamos pelos compromissos com nossos clientes.
           Nossa missão é fornecer soluções econômicas e eficientes para ajudar 
           você ou sua empresa a prosperar.</p>
         </box>
