@@ -63,7 +63,7 @@ export const Home = styled('section')`
 
       h2 {
         color: #ccab63;
-        font-size: 4vw;
+        font-size: 27px;
         text-align: center;
 
         @media(max-width: 768px) {
@@ -73,7 +73,7 @@ export const Home = styled('section')`
       
       p {
         color: #000;
-        font-size: 3vw;
+        font-size: 18px;
         text-align: justify;
         line-height: 36px;
         margin: 9px 15px;

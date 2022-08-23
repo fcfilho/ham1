@@ -6,7 +6,7 @@ const Header = () => {
     <Styled.Header>
       <div className="inner-wrapper">
         <a
-        href="https://hamaximo.herokuapp.com" 
+        href="www.helioarcanjo.adv.br" 
         target="_self"
         rel="noopener noreferrer"
         >
